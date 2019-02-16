@@ -1,0 +1,35 @@
+Features
+ . ASR by Google API
+ . Wakeup by Snowboy
+ . TTS by Google API
+ . R2D2 robot control via serial communication with arduino
+  : movement
+  : dome control
+  : LED control
+  : piezo
+  : button at the bottom (WIP) 
+ . Chatbot with chatterbot engine
+ . Object detection with opencv
+ . Object tracking with opencv
+
+
+
+Pre-requite
+ . sox and sox mp3 extension
+ . libc5.0 support for ubuntu 14.04
+ . portaudio
+ . ??? package to prevent SSH related warning messages
+
+pip install urllib3[secure]
+
+ROS module
+ . ASR (as a service)
+ . Wakeup
+ . TTS
+ . Chatbot (as a service)
+ . Arduino Serial
+ . Vision - Face
+ . Vision - SSD
+ . Neocortex
+
+ROS Service?
